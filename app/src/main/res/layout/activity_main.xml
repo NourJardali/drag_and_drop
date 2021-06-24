@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jmedeisis.draglinearlayout.DragLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Parent Layout is a DragLinearLayout whose orientation is vertical and
+     we have to provide id to it-->
+
+    <!-- below is a simple image view -->
+    <ImageView
+        android:id="@+id/idLogo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:contentDescription="@string/image_desc"
+        android:src="@drawable/image"/>
+
+    <!-- below is the simple text view -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:padding="20dp"
+        android:text="@string/media_fusion"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <!-- below is the simple text view -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:padding="10dp"
+        android:text="@string/dsa_course"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+</com.jmedeisis.draglinearlayout.DragLinearLayout>
